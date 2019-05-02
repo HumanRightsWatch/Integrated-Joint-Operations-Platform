@@ -7,8 +7,10 @@ If you have questions about the report, the IJOP android application, or the dec
 
 ## Reports
 
-| --- | --- | --- |
+
+
 | Type | Language | Link | 
+| --- | --- | --- |
 | Full report | English | https://www.hrw.org/node/329384 | 
 | Report summary and recommendations | Arabic | https://www.hrw.org/sites/default/files/report_pdf/201905china_ijop_sum_rec_arabic_0.pdf |
 | Report summary and recommendations | Bahasa | https://www.hrw.org/sites/default/files/report_pdf/201905china_ijop_sum_recs_bahasa_0.pdf|
@@ -35,7 +37,7 @@ All HRW documents (including the text of the original report in English, and the
 
 **Forensic Artifacts:** This repository contains selections of code decompiled from the IJOP android application, which may be further updated. Selections that were included were those identified as relevant to the 2018-2019 HRW investigation reported in [China’s Algorithms of Repression report](https://www.hrw.org/node/329384). 
 
-**Redactions:** All decompiled code that is released will be reviewed the research team and HRWs Information Security team to redact any API-keys, usernames, passwords or other authenticating information.  All redactions will be noted in the [redaction log]().
+**Redactions:** All decompiled code that is released will be reviewed the research team and HRWs Information Security team to redact any API-keys, usernames, passwords or other authenticating information.  All redactions will be noted in the [redaction log](https://github.com/HumanRightsWatch/Integrated-Joint-Operations-Platform/blob/master/redactions.md).
 
 **APK Hashes:** HRW does not have plans to release the full application (APK) as it can be freely downloaded by the public from existing websites. If you would like to verify that the application you downloaded is the same as the application that analyzed by the HRW research team you can compare it to the following hashes
 
@@ -45,6 +47,6 @@ All HRW documents (including the text of the original report in English, and the
 |sha1sum|861d574183889de45543143149c0145032c02302|yitihualianhezuozhanpingtai_downcc.apk|
 |sha256sum|7171fbde943355f18dc7585acc08e7b9c5fffd02ab8fc6870c6fafd1665ec186|yitihualianhezuozhanpingtai_downcc.apk|
 
-**Source Code:** The decompiled code was extracted from the original APK using [jadx](https://github.com/skylot/jadx) using the following command. `jadx -d source_code yitihualianhezuozhanpingtai_downcc.apk` You can view the full list of decompiled code contained in the application in the [file-tree.]()
+**Source Code:** The decompiled code was extracted from the original APK using [jadx](https://github.com/skylot/jadx) using the following command. `jadx -d source_code yitihualianhezuozhanpingtai_downcc.apk` You can view the full list of decompiled code contained in the application in the [file-tree.](https://github.com/HumanRightsWatch/Integrated-Joint-Operations-Platform/blob/master/file_tree.txt)
 
 百花齊放.
