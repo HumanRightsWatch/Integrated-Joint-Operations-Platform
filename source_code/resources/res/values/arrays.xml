@@ -1,0 +1,777 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <array name="avatar_option">
+        <item>拍照</item>
+        <item>从相册选择</item>
+    </array>
+    <array name="backup_country_codes">
+        <item>SX</item>
+        <item>BQ</item>
+        <item>CW</item>
+        <item>SS</item>
+    </array>
+    <array name="backup_country_names">
+        <item>Sint Maarten</item>
+        <item>Caribbean Netherlands</item>
+        <item>Curaçao</item>
+        <item>South Sudan</item>
+    </array>
+    <array name="bank">
+        <item>中国建设银行</item>
+        <item>中国农业银行</item>
+        <item>中国工商银行</item>
+        <item>中国银行</item>
+        <item>天山农商银行</item>
+        <item>其他</item>
+    </array>
+    <array name="blood_name">
+        <item>未选择</item>
+        <item>A型</item>
+        <item>B型</item>
+        <item>AB型</item>
+        <item>O型</item>
+    </array>
+    <array name="certificate_of_person_contact">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>亲属</item>
+        <item>朋友或社会关系</item>
+    </array>
+    <array name="certificate_type">
+        <item>未选择</item>
+        <item>护照</item>
+        <item>签证</item>
+    </array>
+    <array name="check_person_car_gas_driver">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>借用亲属朋友</item>
+        <item>用加油站人员</item>
+        <item>借用其他人员</item>
+        <item>说不清楚</item>
+    </array>
+    <array name="collection_edit_operation_type">
+        <item>重置</item>
+        <item>编辑</item>
+        <item>取消</item>
+    </array>
+    <array name="collection_height">
+        <item>未选择</item>
+        <item>50cm</item>
+        <item>60cm</item>
+        <item>70cm</item>
+        <item>80cm</item>
+        <item>90cm</item>
+        <item>100cm</item>
+        <item>110cm</item>
+        <item>120cm</item>
+        <item>130cm</item>
+        <item>131cm</item>
+        <item>132cm</item>
+        <item>133cm</item>
+        <item>134cm</item>
+        <item>135cm</item>
+        <item>136cm</item>
+        <item>137cm</item>
+        <item>138cm</item>
+        <item>139cm</item>
+        <item>140cm</item>
+        <item>141cm</item>
+        <item>142cm</item>
+        <item>143cm</item>
+        <item>144cm</item>
+        <item>145cm</item>
+        <item>146cm</item>
+        <item>147cm</item>
+        <item>148cm</item>
+        <item>149cm</item>
+        <item>150cm</item>
+        <item>151cm</item>
+        <item>152cm</item>
+        <item>153cm</item>
+        <item>154cm</item>
+        <item>155cm</item>
+        <item>156cm</item>
+        <item>157cm</item>
+        <item>158cm</item>
+        <item>159cm</item>
+        <item>160cm</item>
+        <item>161cm</item>
+        <item>162cm</item>
+        <item>163cm</item>
+        <item>164cm</item>
+        <item>165cm</item>
+        <item>166cm</item>
+        <item>167cm</item>
+        <item>168cm</item>
+        <item>169cm</item>
+        <item>170cm</item>
+        <item>171cm</item>
+        <item>172cm</item>
+        <item>173cm</item>
+        <item>174cm</item>
+        <item>175cm</item>
+        <item>176cm</item>
+        <item>177cm</item>
+        <item>178cm</item>
+        <item>179cm</item>
+        <item>180cm</item>
+        <item>181cm</item>
+        <item>182cm</item>
+        <item>183cm</item>
+        <item>184cm</item>
+        <item>185cm</item>
+        <item>186cm</item>
+        <item>187cm</item>
+        <item>188cm</item>
+        <item>189cm</item>
+        <item>190cm</item>
+        <item>191cm</item>
+        <item>192cm</item>
+        <item>193cm</item>
+        <item>194cm</item>
+        <item>195cm</item>
+        <item>196cm</item>
+        <item>197cm</item>
+        <item>198cm</item>
+        <item>199cm</item>
+        <item>200cm</item>
+        <item>201cm</item>
+        <item>202cm</item>
+        <item>203cm</item>
+        <item>204cm</item>
+        <item>205cm</item>
+        <item>206cm</item>
+        <item>207cm</item>
+        <item>208cm</item>
+        <item>209cm</item>
+        <item>210cm</item>
+        <item>211cm</item>
+        <item>212cm</item>
+        <item>213cm</item>
+        <item>214cm</item>
+        <item>215cm</item>
+        <item>216cm</item>
+        <item>217cm</item>
+        <item>218cm</item>
+        <item>219cm</item>
+        <item>220cm</item>
+    </array>
+    <array name="collection_operation_type">
+        <item>保存</item>
+        <item>取消</item>
+    </array>
+    <array name="collection_theme">
+        <item>未选择</item>
+        <item>入户采集</item>
+        <item>街面采集</item>
+        <item>教育培训中心采集</item>
+        <item>出境人员报备</item>
+        <item>内地新疆籍人员采集</item>
+    </array>
+    <array name="discrepancy_report">
+        <item>未选择</item>
+        <item>亲属</item>
+        <item>雇佣</item>
+        <item>租用</item>
+        <item>借用</item>
+    </array>
+    <array name="educational_background">
+        <item>未选择</item>
+        <item>本科及以上</item>
+        <item>专科</item>
+        <item>高中</item>
+        <item>初中</item>
+        <item>小学及以下</item>
+    </array>
+    <array name="event_report_type">
+        <item>可疑人员</item>
+        <item>可疑车辆</item>
+        <item>可疑物体</item>
+        <item>问题人员</item>
+        <item>流动人口</item>
+    </array>
+    <array name="event_report_urgency">
+        <item>一般</item>
+        <item>重要</item>
+        <item>紧急</item>
+    </array>
+    <array name="event_type">
+        <item>可疑人员</item>
+        <item>可疑事件</item>
+        <item>其他</item>
+    </array>
+    <array name="exit_option">
+        <item>切换账号</item>
+        <item>退出</item>
+    </array>
+    <array name="exit_or_enter_state">
+        <item>未选择</item>
+        <item>出境</item>
+        <item>入境</item>
+    </array>
+    <array name="exit_reason_for_collection">
+        <item>未选择</item>
+        <item>探亲</item>
+        <item>旅游</item>
+        <item>留学</item>
+        <item>因公</item>
+        <item>其他</item>
+    </array>
+    <array name="exit_reason_type">
+        <item>未选择</item>
+        <item>留学</item>
+        <item>做生意</item>
+        <item>旅游</item>
+        <item>其他</item>
+    </array>
+    <array name="gender_select_item">
+        <item>女</item>
+        <item>男</item>
+    </array>
+    <array name="img_msg_option">
+        <item>转发</item>
+        <item>保存到相册</item>
+        <item>删除</item>
+    </array>
+    <array name="img_option">
+        <item>转发</item>
+        <item>保存到相册</item>
+    </array>
+    <array name="in_of_person_mode">
+        <item>未选择</item>
+        <item>汽车</item>
+        <item>飞机</item>
+        <item>火车</item>
+        <item>自驾</item>
+        <item>其他</item>
+    </array>
+    <array name="inner_land_reason">
+        <item>未选择</item>
+        <item>经商</item>
+        <item>上学</item>
+        <item>其他</item>
+        <item>无法合理解释</item>
+    </array>
+    <array name="inner_way_for_collection">
+        <item>未选择</item>
+        <item>飞机</item>
+        <item>火车</item>
+        <item>汽车</item>
+        <item>轮船</item>
+        <item>徒步</item>
+        <item>其他</item>
+    </array>
+    <array name="is_change_identity">
+        <item>未选择</item>
+        <item>是</item>
+        <item>否</item>
+    </array>
+    <array name="is_same_person">
+        <item>未选择</item>
+        <item>不一致</item>
+        <item>一致</item>
+    </array>
+    <array name="language">
+        <item>跟随系统</item>
+        <item>简体中文</item>
+        <item>خەنزۇچە-ئۇيغۇرچ</item>
+    </array>
+    <array name="log_level">
+        <item>fatal</item>
+        <item>error</item>
+        <item>warn</item>
+        <item>info</item>
+        <item>debug</item>
+        <item>verbose</item>
+    </array>
+    <array name="mission_command_type">
+        <item>入户走访</item>
+        <item>释法宣教</item>
+    </array>
+    <array name="msg_list_option">
+        <item>删除</item>
+        <item>置顶</item>
+    </array>
+    <array name="msg_list_option1">
+        <item>删除</item>
+        <item>取消置顶</item>
+    </array>
+    <array name="network_tool">
+        <item>line</item>
+        <item>voxer</item>
+        <item>SKYPE</item>
+        <item>DiDi</item>
+        <item>whatsapp</item>
+        <item>ChatOn</item>
+        <item>KakaoTalk</item>
+        <item>Viber</item>
+        <item>Path</item>
+        <item>kik</item>
+        <item>Telegram</item>
+        <item>Hike Message</item>
+        <item>COCO</item>
+        <item>IM+</item>
+        <item>Badoo</item>
+        <item>Tango</item>
+        <item>Whisper</item>
+        <item>Raidcall</item>
+        <item>Hangouts</item>
+        <item>Google TALK</item>
+        <item>nimbuzz</item>
+        <item>hi</item>
+        <item>iMessage</item>
+        <item>Zello</item>
+        <item>KeeChat</item>
+        <item>Diaspara</item>
+        <item>wickr</item>
+        <item>MSN</item>
+        <item>pqchat</item>
+        <item>BBM</item>
+        <item>talkbox</item>
+        <item>IPSec</item>
+        <item>Hotspot VPN</item>
+        <item>L2TP</item>
+        <item>freevpn</item>
+        <item>PPTP</item>
+        <item>Fqrouter</item>
+        <item>ark vpn</item>
+        <item>易联</item>
+        <item>Seed4Me VPN</item>
+        <item>vpn unlimited</item>
+        <item>super vpn</item>
+        <item>Onavo Protect</item>
+        <item>OpenVPN</item>
+        <item>vpn dialogs</item>
+        <item>easyVPN</item>
+        <item>VPN Shield</item>
+        <item>GreenVPN</item>
+        <item>Astrill VPN</item>
+        <item>VPN for Phone</item>
+        <item>Global VPN</item>
+        <item>暂未发现可疑软件</item>
+    </array>
+    <array name="no_car_track_reason">
+        <item>未选择</item>
+        <item>出疆</item>
+        <item>闲置</item>
+        <item>修理</item>
+        <item>报废</item>
+        <item>借用</item>
+        <item>买卖已过户</item>
+        <item>买卖未过户</item>
+        <item>其他</item>
+    </array>
+    <array name="no_id_card_track_reason">
+        <item>未选择</item>
+        <item>外出务工</item>
+        <item>上学</item>
+        <item>旅游</item>
+        <item>住院</item>
+        <item>迁户</item>
+        <item>出国</item>
+        <item>出疆</item>
+        <item>刑拘</item>
+        <item>教培</item>
+        <item>下落不明</item>
+        <item>其他</item>
+    </array>
+    <array name="out_of_person_contact">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>亲属</item>
+        <item>社会关系</item>
+    </array>
+    <array name="passport_not_collection_reason_type">
+        <item>未选择</item>
+        <item>护照丢失</item>
+        <item>出境未归</item>
+    </array>
+    <array name="passport_type">
+        <item>未选择</item>
+        <item>公务护照</item>
+        <item>普通护照</item>
+        <item>因公普通护照</item>
+    </array>
+    <array name="political_status">
+        <item>未选择</item>
+        <item>群众</item>
+        <item>党员</item>
+        <item>其他</item>
+    </array>
+    <array name="proxy_type">
+        <item>HTTP</item>
+        <item>SOCKS4</item>
+        <item>SOCKS5</item>
+    </array>
+    <array name="reason_for_discrepancy_car">
+        <item>未选择</item>
+        <item>借用</item>
+        <item>买卖</item>
+        <item>租赁</item>
+        <item>雇佣</item>
+        <item>其他</item>
+    </array>
+    <array name="reason_for_discrepancy_phone">
+        <item>未选择</item>
+        <item>借他人使用</item>
+        <item>未经他人允许使用开户</item>
+        <item>其他</item>
+    </array>
+    <array name="reason_for_no_phone_trail">
+        <item>未选择</item>
+        <item>关机</item>
+        <item>停机</item>
+        <item>销号</item>
+        <item>出疆</item>
+        <item>其他</item>
+    </array>
+    <array name="reason_for_radio_car_not_check">
+        <item>未选择</item>
+        <item>借用亲属车辆</item>
+        <item>借用社会关系车辆</item>
+        <item>正在办理过户</item>
+        <item>租赁公司车辆</item>
+        <item>企事业单位车辆</item>
+        <item>其他</item>
+    </array>
+    <array name="reason_for_track">
+        <item>未选择</item>
+        <item>未销户</item>
+        <item>借他人</item>
+        <item>丢失</item>
+        <item>其他</item>
+    </array>
+    <array name="reason_of_differ">
+        <item>未选择</item>
+        <item>借亲属、朋友车辆</item>
+        <item>公务车辆</item>
+        <item>车辆未过户</item>
+        <item>其它</item>
+    </array>
+    <array name="recurrence_freq">
+        <item>REPEAT HOURLY</item>
+        <item>REPEAT DAILY</item>
+        <item>REPEAT WEEKLY</item>
+        <item>REPEAT MONTHLY</item>
+        <item>REPEAT YEARLY</item>
+    </array>
+    <array name="relation_for_family">
+        <item>夫妻</item>
+        <item>父子</item>
+        <item>父女</item>
+        <item>母女</item>
+        <item>母子</item>
+        <item>祖孙</item>
+        <item>兄弟</item>
+        <item>兄妹</item>
+        <item>其他</item>
+    </array>
+    <array name="relation_for_foreign">
+        <item>未选择</item>
+        <item>亲属</item>
+        <item>社会关系</item>
+    </array>
+    <array name="relation_for_full_array">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>亲属</item>
+        <item>社会关系</item>
+        <item>无关</item>
+    </array>
+    <array name="relation_huzhu">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>丈夫</item>
+        <item>妻子</item>
+        <item>父亲</item>
+        <item>母亲</item>
+        <item>儿子</item>
+        <item>女儿</item>
+        <item>爷爷</item>
+        <item>奶奶</item>
+        <item>外公</item>
+        <item>外婆</item>
+        <item>兄</item>
+        <item>弟</item>
+        <item>姐</item>
+        <item>妹</item>
+        <item>孙子</item>
+        <item>孙女</item>
+        <item>外孙子</item>
+        <item>外孙女</item>
+        <item>其他</item>
+    </array>
+    <array name="relation_radio_car">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>亲属或社会关系</item>
+        <item>无关</item>
+        <item>车主是乘客</item>
+    </array>
+    <array name="relation_to_four_association">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>亲属</item>
+        <item>社会关系</item>
+    </array>
+    <array name="relation_to_personnel_inflow">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>亲属</item>
+        <item>社会关系</item>
+    </array>
+    <array name="relation_to_visitor">
+        <item>未选择</item>
+        <item>本人</item>
+        <item>亲属</item>
+        <item>社会关系</item>
+    </array>
+    <array name="religious_atmosphere">
+        <item>未选择</item>
+        <item>一般</item>
+        <item>浓厚</item>
+    </array>
+    <array name="religious_name">
+        <item>未选择</item>
+        <item>无</item>
+        <item>伊斯兰教</item>
+        <item>基督教</item>
+        <item>佛教</item>
+        <item>其他</item>
+    </array>
+    <array name="repeat_by_nth_fri">
+        <item>on every first Friday</item>
+        <item>on every second Friday</item>
+        <item>on every third Friday</item>
+        <item>on every fourth Friday</item>
+        <item>on every last Friday</item>
+    </array>
+    <array name="repeat_by_nth_mon">
+        <item>on every first Monday</item>
+        <item>on every second Monday</item>
+        <item>on every third Monday</item>
+        <item>on every fourth Monday</item>
+        <item>on every last Monday</item>
+    </array>
+    <array name="repeat_by_nth_sat">
+        <item>on every first Saturday</item>
+        <item>on every second Saturday</item>
+        <item>on every third Saturday</item>
+        <item>on every fourth Saturday</item>
+        <item>on every last Saturday</item>
+    </array>
+    <array name="repeat_by_nth_sun">
+        <item>on every first Sunday</item>
+        <item>on every second Sunday</item>
+        <item>on every third Sunday</item>
+        <item>on every fourth Sunday</item>
+        <item>on every last Sunday</item>
+    </array>
+    <array name="repeat_by_nth_thurs">
+        <item>on every first Thursday</item>
+        <item>on every second Thursday</item>
+        <item>on every third Thursday</item>
+        <item>on every fourth Thursday</item>
+        <item>on every last Thursday</item>
+    </array>
+    <array name="repeat_by_nth_tues">
+        <item>on every first Tuesday</item>
+        <item>on every second Tuesday</item>
+        <item>on every third Tuesday</item>
+        <item>on every fourth Tuesday</item>
+        <item>on every last Tuesday</item>
+    </array>
+    <array name="repeat_by_nth_wed">
+        <item>on every first Wednesday</item>
+        <item>on every second Wednesday</item>
+        <item>on every third Wednesday</item>
+        <item>on every fourth Wednesday</item>
+        <item>on every last Wednesday</item>
+    </array>
+    <array name="report_operation_type">
+        <item>发送</item>
+        <item>保存</item>
+        <item>取消</item>
+    </array>
+    <array name="room_option_1">
+        <item>移除管理员</item>
+        <item>踢出此成员</item>
+    </array>
+    <array name="room_option_2">
+        <item>授权管理员</item>
+        <item>踢出此成员</item>
+    </array>
+    <array name="room_option_3">
+        <item>踢出此成员</item>
+    </array>
+    <array name="send_file_items">
+        <item>在线发送</item>
+        <item>发送离线文件</item>
+        <item>取消发送</item>
+    </array>
+    <array name="send_file_items2">
+        <item>在线发送</item>
+        <item>取消发送</item>
+    </array>
+    <array name="software_name_tool">
+        <item>QQ</item>
+        <item>微信</item>
+        <item>其它</item>
+    </array>
+    <array name="suspicious_phone_description">
+        <item>未选择</item>
+        <item>VPN</item>
+        <item>小众</item>
+        <item>可疑Url</item>
+        <item>其他</item>
+    </array>
+    <array name="suspicious_phone_type">
+        <item>未选择</item>
+        <item>VPN</item>
+        <item>小众</item>
+        <item>有害Url</item>
+        <item>暴恐音视频</item>
+    </array>
+    <array name="task_status">
+        <item>未调查</item>
+        <item>已调查</item>
+    </array>
+    <array name="tasks_type_polic">
+        <item>未选择</item>
+        <item>附近的人</item>
+        <item>比中人员</item>
+        <item>比中车辆</item>
+        <item>问题手机</item>
+    </array>
+    <array name="tasks_type_social">
+        <item>未选择</item>
+        <item>附近的人</item>
+    </array>
+    <array name="text_msg_option">
+        <item>复制</item>
+        <item>转发</item>
+        <item>删除</item>
+    </array>
+    <array name="theme_name">
+        <item>默认</item>
+        <item>田野</item>
+        <item>丰收</item>
+        <item>雪山</item>
+    </array>
+    <array name="thing_theme">
+        <item>物品上报</item>
+        <item>寄递管控</item>
+    </array>
+    <array name="thing_type">
+        <item>未选择</item>
+        <item>文件</item>
+        <item>农产品</item>
+        <item>工业品</item>
+        <item>汽车配件</item>
+        <item>日用品</item>
+        <item>植物</item>
+        <item>衣服</item>
+        <item>液体</item>
+        <item>电子产品</item>
+        <item>办公用品</item>
+        <item>文体用品</item>
+    </array>
+    <array name="timezone_rename_ids">
+        <item>Australia/Darwin</item>
+        <item>Australia/Adelaide</item>
+        <item>Australia/Brisbane</item>
+        <item>Australia/Sydney</item>
+        <item>America/Dawson_Creek</item>
+        <item>America/Regina</item>
+        <item>America/Atikokan</item>
+        <item>America/Blanc-Sablon</item>
+        <item>Pacific/Honolulu</item>
+        <item>America/Adak</item>
+        <item>America/Metlakatla</item>
+        <item>America/Phoenix</item>
+        <item>America/Tijuana</item>
+        <item>America/Ojinaga</item>
+        <item>America/Matamoros</item>
+        <item>America/Hermosillo</item>
+        <item>Africa/Juba</item>
+        <item>America/Kralendijk</item>
+        <item>America/Lower_Princes</item>
+        <item>Europe/Minsk</item>
+        <item>Europe/Kaliningrad</item>
+        <item>America/Porto_Velho</item>
+        <item>America/Belem</item>
+    </array>
+    <array name="timezone_rename_labels">
+        <item>Australian Central - NT</item>
+        <item>Australian Central - SA</item>
+        <item>Australian Eastern - QLD</item>
+        <item>Australian Eastern - NSW</item>
+        <item>Mountain Standard - Dawson Creek</item>
+        <item>Central Standard - Saskatchewan</item>
+        <item>Eastern Standard - Atikokan</item>
+        <item>Atlantic Standard - Quebec</item>
+        <item>Hawaii-Aleutian - Hawaii</item>
+        <item>Hawaii-Aleutian - Alaska</item>
+        <item>Pacific Standard - Metlakatla</item>
+        <item>Mountain Standard - Arizona</item>
+        <item>Pacific - Baja California</item>
+        <item>Mountain - Chihuahua</item>
+        <item>Central - Tamaulipas</item>
+        <item>Mountain - Sonora</item>
+        <item>East Africa Time</item>
+        <item>Atlantic Standard Time</item>
+        <item>Atlantic Standard Time</item>
+        <item>Eastern European Time</item>
+        <item>Kaliningrad Time</item>
+        <item>Amazon - Rondônia</item>
+        <item>Brasilia - Pará</item>
+    </array>
+    <array name="titles_for_contacts">
+        <item>全部成员</item>
+        <item>在线成员</item>
+    </array>
+    <array name="trackig_mode_array">
+        <item>Normal</item>
+        <item>Robust</item>
+        <item>Fast</item>
+    </array>
+    <array name="type_out_of_person">
+        <item>未选择</item>
+        <item>汽车</item>
+        <item>飞机</item>
+        <item>火车</item>
+        <item>自驾</item>
+        <item>其他</item>
+    </array>
+    <array name="use_of_building">
+        <item>未选择</item>
+        <item>自住</item>
+        <item>出租</item>
+    </array>
+    <array name="vehicle_property">
+        <item>未选择</item>
+        <item>私家车</item>
+        <item>运营车</item>
+        <item>党政军企事业车辆</item>
+    </array>
+    <array name="video_msg_option">
+        <item>删除</item>
+        <item>转发</item>
+    </array>
+    <array name="visa_type">
+        <item>未选择</item>
+        <item>外交签证</item>
+        <item>礼遇签证</item>
+        <item>公务签证</item>
+        <item>普通签证</item>
+    </array>
+    <array name="voice_msg_option">
+        <item>删除</item>
+    </array>
+    <array name="yes_or_no">
+        <item>未选择</item>
+        <item>否</item>
+        <item>是</item>
+    </array>
+</resources>

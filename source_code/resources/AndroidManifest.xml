@@ -1,0 +1,508 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android" android:versionCode="212" android:versionName="2.1.2.7762" package="com.hbfec.xjoneproject">
+    <uses-sdk android:screenOrientation="portrait" android:minSdkVersion="15" android:windowSoftInputMode="stateHidden" android:targetSdkVersion="19"/>
+    <uses-permission android:name="android.permission.AUTHENTICATE_ACCOUNTS" android:maxSdkVersion="22"/>
+    <uses-permission android:name="android.permission.GET_ACCOUNTS"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" android:maxSdkVersion="22"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.KILL_BACKGROUND_PROCESSES"/>
+    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/>
+    <uses-permission android:name="android.permission.RECORD_AUDIO"/>
+    <uses-permission android:name="android.permission.MODIFY_AUDIO_SETTINGS"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
+    <uses-permission android:name="android.permission.WRITE_CONTACTS"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.PROCESS_OUTGOING_CALLS"/>
+    <uses-permission android:name="android.permission.RAISED_THREAD_PRIORITY"/>
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+    <uses-permission android:name="android.permission.READ_LOGS"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.BLUETOOTH"/>
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN"/>
+    <uses-permission android:name="android.permission.FLASHLIGHT"/>
+    <uses-permission android:name="android.permission.GET_TASKS"/>
+    <permission android:name="com.hbfec.xjoneproject.permission.MIPUSH_RECEIVE" android:protectionLevel="signature"/>
+    <uses-permission android:name="android.permission.WRITE_SYNC_SETTINGS"/>
+    <uses-permission android:name="com.hbfec.xjoneproject.permission.MIPUSH_RECEIVE"/>
+    <permission android:name="android.permission.STATUS_BAR_SERVICE" android:protectionLevel="signature"/>
+    <uses-permission android:name="com.android.launcher.permission.READ_SETTINGS"/>
+    <uses-feature android:name="android.hardware.camera"/>
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+    <application android:theme="@r$style/NewAppTheme" android:label="@string/application_title_full" android:icon="@r$drawable/ic_acrophone" android:name="com.hbfec.xjoneinformation.IMSDroid" android:persistent="false" android:screenOrientation="portrait" android:allowBackup="true" android:hardwareAccelerated="true" android:largeHeap="true" android:supportsRtl="true">
+        <meta-data android:name="com.baidu.lbsapi.API_KEY" android:screenOrientation="portrait" android:value="tDrGWQGVA0p297DvRNDWomvynTjWAT7I" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@r$style/splash" android:label="@string/application_title_short" android:name="com.hbfec.xjoneinformation.MainActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.fec.one.project.MAIN"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.CALL_PRIVILEGED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:scheme="tel"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fec.xjoneproject.ui.LoginActivity" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.MainTab" android:exported="true" android:launchMode="singleTask" android:screenOrientation="portrait" android:configChanges="locale" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSplash" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenAboutUs" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSuggestion" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactDetail" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactUCSearch" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactSearch" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactSearchResult" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactMultiSelect" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.SelectContactListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactList" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactVcard" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenQueryWebChat" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenQueryGroupChat" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenTabInfo" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactAll" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactGroupNew" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactMine" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactNew" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactOrganize" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactOrganization" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ContactUC" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@r$style/ChooserTheme" android:label="@string/choose_file" android:icon="@r$drawable/ic_chooser" android:name="com.fec.xjoneproject.message.ui.FileChooserActivity" android:enabled="true" android:exported="true" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="startFileChooser" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.OPENABLE"/>
+                <data android:mimeType="*/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.hbfec.xjoneinformation.screens.UCGroupNew" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.UCPersonListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.MessageHistory" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenTabOnline" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSettingsNew" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSettingsState" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSettingsPermission" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSettingsTheme" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenTabMessages" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenGeneral" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenIdentity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenCodecs" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenCodecsAudio" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenCodecsVideo" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSecurity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenContacts" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenPresence" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenMessaging" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenNatt" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenQoS" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenFileTransferQueue" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenChatQueue" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.message.ui.SingleChatActivity" android:exported="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.message.ui.PersistentGroupChatActivity" android:exported="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.message.ui.UsualGroupChatActivity" android:exported="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.ContacterActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.contacts.ContactDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.contacts.ContactGroupActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.contacts.ContactEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.room.RoomListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.message.GroupRoomListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.room.RoomMemberListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.room.RoomFileListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.room.SearchRoomListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.message.RecordActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.message.VideoPlayActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.room.CreateRoomActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.message.SelectRoomListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.ContactSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.ShowPersonActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.room.InviteMemberActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.system.SystemNoticeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.system.SystemNoticeDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.SettingAboutActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.SettingDatacleanActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.SettingIntroduceActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.debug.DebugDBListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.debug.DebugDBActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.notify.NotifyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.ReportLocationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.FileListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.ImageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.ImageActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.SystemMsgListActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.AddChatPeopleActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.PictureActivityShow" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.SuperviseMsgActivity" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.asmack.im.ui.UCChatDetail" android:screenOrientation="portrait" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.debug.DeveloperActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="me.nereo.multi_image_selector.MultiImageSelectorActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="me.nereo.multi_image_selector.MultiImagePreviewActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.message.ForwardActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:theme="@r$style/splash" android:name="com.fec.xjoneproject.ui.message.ShareActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="text/plain"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.SEND_MULTIPLE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <data android:mimeType="image/*"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.fec.xjoneproject.ui.message.ContactSelectActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.QuestionActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.LocationActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.LocContentActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.electronic.CheckElcInfoActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.map.MapNineInfoDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.nine.CheckNineInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.nine.CheckNineSoftwareAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.nine.CheckNineSoftwareListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.nine.CheckNineRelationAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.nine.CheckNineRelationListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.CheckInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.map.OffLineMapActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.collection.PopFamilyDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.collection.PopHouseDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.MoreActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.command.CommandDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.CheckDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.approve.ApplyAppoveActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.approve.ApproveActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.approve.MyApplyActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.approve.MyApproveActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.approve.ApplyDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.SelectTaskTransferUserActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.command.CommandActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.CheckActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.QueryListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.collection.PopulationQueryActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.post.PersonPostActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.post.CarPostActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.post.ThingPostActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.PostQueryActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusCarActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusThingActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusPersonActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusPersonDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusCarDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusThingDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusPersonEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.SusCarEditActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.PersonActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.CarActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.AccountSafeActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.GestureActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.GestureAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.GestureConfermActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.sign.SignActivity"/>
+        <activity android:name="com.fec.xjoneproject.sign.SignPlaceSetActivity"/>
+        <activity android:name="com.fec.xjoneproject.sign.SignListActivity"/>
+        <activity android:name="com.fec.xjoneproject.sign.LocationListActivity"/>
+        <service android:name="com.fec.xjoneproject.xmpp.XmppService" android:enabled="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="com.hbfec.asmack.im.comm.service.DownLoadService">
+            <intent-filter>
+                <action android:name="connect_download_ftp_service"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <service android:label="@string/app_name" android:name="com.hbfec.xjoneinformation.VersionUpdateService" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="com.hbfec.asmack.im.comm.service.UpDateService">
+            <intent-filter>
+                <action android:name="connect_update_ftp_service"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.hbfec.asmack.im.comm.service.UploadFtpService">
+            <intent-filter>
+                <action android:name="upload_file_to_server"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.hbfec.asmack.im.comm.service.DownloadFtpService">
+            <intent-filter>
+                <action android:name="download_file_from_server"/>
+                <category android:name="android.intent.category.default"/>
+            </intent-filter>
+        </service>
+        <service android:name="com.baidu.location.f" android:enabled="true" android:process=":remote">
+            <intent-filter>
+                <action android:name="com.baidu.location.service_v2.2" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="com.hbfec.asmack.im.comm.base.IMContacterReceiver">
+            <intent-filter android:priority="2147483647">
+                <action android:name="acrophone.roster.added" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="acrophone.roster.deleted" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="acrophone.presence.changed" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="acrophone.roster.updated" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="acrophone.subscribe" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.hbfec.xjoneinformation.ConnectivityChangeReceiver">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.fec.xjoneproject.chat.FtpActionReceiver">
+            <intent-filter>
+                <action android:name="DownloadFtpService.download_progress_action" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="UploadFtpService.upload_progress_action" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.fec.xjoneproject.receiver.AutoStartBroadcastReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.intent.action.SCREEN_ON" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.bluetooth.adapter.action.CONNECTION_STATE_CHANGED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.fec.xjoneproject.ui.contacts.AllPublicContactsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.electronic.PowerWarnDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.supervise.LeaderSuperviseActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.supervise.EventsListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.supervise.TasksListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_personnel.MapRadioPersonnelDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_car.MapRadioCarDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_personnel.CheckRadioPersonnelInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_personnel.PeerPersonnelListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_personnel.PeerPersonnelAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_car.CheckRadioCarInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_car.PeerCarListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_car.PeerCarAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_car.SuspiciousPhoneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.radio_car.SuspiciousPhoneListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.MapProblemSurveyDetailsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.VehicleAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.ToolsAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.BankAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.FamilyAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.ProblemSurveyAddFeedActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.FamilyListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.BankListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.ToolsListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.problem_survey.VehicleListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.overdue_person.OverduePersonAddFeedActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.overdue_person.ExitRelationAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.overdue_person.ExitRelationListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.overdue_person.OverduePersonDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.MapNewTaskDetailsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.VehicleAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.ToolsAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.BankAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.FamilyAddActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.NewTaskAddFeedActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.FamilyListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.BankListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.ToolsListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.manual_new_task.VehicleListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.BuildingListActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.HouseListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.AreaListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.InfoSearchActivity" android:launchMode="singleTop" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.search.CheckSearchActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.supervise.CollectionListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.information.InformationAddActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.fec.xjoneproject.information.InformationCenterActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.fec.xjoneproject.information.MyScoreActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.fec.xjoneproject.information.InfoDetailActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.FaceActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.OpenglActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.FaceRecognizeActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.setting.safety.OpenSaveActivity" android:screenOrientation="portrait"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_outflow.activity.PeerDetailActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_outflow.activity.RelativePeerActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_outflow.activity.PeerActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_outflow.activity.OutOfPersonDetailActivity"/>
+        <meta-data android:name="com.huawei.hms.client.appid" android:screenOrientation="portrait" android:value="100004055" android:windowSoftInputMode="stateHidden"/>
+        <provider android:name="com.huawei.hms.update.provider.UpdateProvider" android:exported="false" android:authorities="com.hbfec.xjoneproject.hms.update.provider" android:grantUriPermissions="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:name="com.fec.xjoneproject.receiver.HuaWeiPushReceiver">
+            <intent-filter>
+                <action android:name="com.huawei.android.push.intent.REGISTRATION" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="com.huawei.android.push.intent.RECEIVE" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="com.huawei.android.push.intent.CLICK" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="com.huawei.intent.action.PUSH_STATE" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+            <meta-data android:name="CS_cloud_ablitity" android:screenOrientation="portrait" android:value="successRateAnalytics" android:windowSoftInputMode="stateHidden"/>
+        </receiver>
+        <receiver android:name="com.huawei.hms.support.api.push.PushEventReceiver">
+            <intent-filter>
+                <action android:name="com.huawei.intent.action.PUSH" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.fec.xjoneproject.receiver.HuaWeiNotificationReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.hbfec.xjoneproject.huawei.push.msg" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.xiaomi.push.service.XMPushService" android:enabled="true" android:process=":pushservice" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="com.xiaomi.push.service.XMJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:enabled="true" android:exported="false" android:process=":pushservice" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="com.xiaomi.mipush.sdk.PushMessageHandler" android:enabled="true" android:exported="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="com.xiaomi.mipush.sdk.MessageHandleService" android:enabled="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:name="com.fec.xjoneproject.receiver.XiaoMiPushReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.RECEIVE_MESSAGE" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.MESSAGE_ARRIVED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.xiaomi.mipush.ERROR" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaomi.push.service.receivers.NetworkStatusReceiver" android:exported="true">
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.xiaomi.push.service.receivers.PingReceiver" android:exported="false" android:process=":pushservice">
+            <intent-filter>
+                <action android:name="com.xiaomi.push.PING_TIMER" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <service android:name="com.fec.xjoneproject.receiver.DaemonJobService" android:permission="android.permission.BIND_JOB_SERVICE" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:name="com.fec.xjoneproject.receiver.DaemonBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.ACTION_POWER_CONNECTED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.intent.action.PHONE_STATE" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.intent.action.NEW_OUTGOING_CALL" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+                <action android:name="android.provider.Telephony.SMS_RECEIVED" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+        </receiver>
+        <provider android:name="com.fec.xjoneproject.keeplive.AccountContentProvider" android:exported="false" android:authorities="@string/account_auth_provider" android:syncable="true" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <service android:name="com.fec.xjoneproject.keeplive.AccountSyncService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.content.SyncAdapter" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+            <meta-data android:name="android.content.SyncAdapter" android:screenOrientation="portrait" android:resource="@r$xml/sync_adapter" android:windowSoftInputMode="stateHidden"/>
+        </service>
+        <service android:name="com.fec.xjoneproject.keeplive.AccountAuthService" android:enabled="true" android:exported="true">
+            <intent-filter>
+                <action android:name="android.accounts.AccountAuthenticator" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+            </intent-filter>
+            <meta-data android:name="android.accounts.AccountAuthenticator" android:screenOrientation="portrait" android:resource="@r$xml/account_authenticator" android:windowSoftInputMode="stateHidden"/>
+        </service>
+        <activity android:theme="@android:style/Theme.NoTitleBar.Fullscreen" android:name="com.turui.bank.ocr.CaptureActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation" android:windowSoftInputMode="stateAlwaysHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.HomeInfoActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.FeedBackListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.collection.CollectionPersonCarActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.collection.CollectionPersonPhoneActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.Contact" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.hbfec.xjoneinformation.screens.ScreenSettingsConfiguration" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.CheckWithTabActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.notify.NotifyAndAnnouncementActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.vehicle_report.VehicleReportFeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.vehicle_report.VehicleReportDetailsActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <receiver android:name="com.fec.xjoneproject.receiver.GPSStatusBroadcastReceiver">
+            <intent-filter>
+                <action android:name="android.location.PROVIDERS_CHANGED"/>
+            </intent-filter>
+        </receiver>
+        <activity android:name="com.fec.xjoneproject.ui.task.face_warning.FaceWarningActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.face_warning.FaceWarningListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.sign.LocalSignListActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.ui.activity.NewThingActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_inflow.activity.PeerDetailActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_inflow.activity.RelativePeerActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_inflow.activity.InfluxPersonDetailActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.demand.DemandServiceMainActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.demand.DemandServiceFormActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.demand.MineDemandServiceActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.demand.SelectApproveActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.demand.MineApproveActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.demand.ApproveServiceActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.person_car_match.PersonCarActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.person_phone_match.PersonPhoneActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.person_phone_match.PersonPhoneWarnActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.no_car_track.NoCarTrackDetailActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.no_car_track.NoCarTrackFeedBackActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.no_id_card_track.NoIdCardTrackFeedBackActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.no_id_card_track.NoIdCardTrackDetailActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.person_certificate_match.PersonCertificateActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.person_car_match.PersonCarWarnActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.person_certificate_match.PersonCertificateWarnActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.newCollection.NewCollectionActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.anti_reflux.passport_manager.activity.PassportManagerFeedbackActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.anti_reflux.passport_manager.activity.PassportEditActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.anti_reflux.AntiRefluxActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.anti_reflux.passport_manager.activity.PassportCheckListActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.anti_reflux.passport_manager.activity.PassportWarnActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.anti_reflux.CheckExchangeActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.anti_reflux.SelectTaskTransferOrgActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.four_association.activity.FourAssociationFeedbackActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.four_association.activity.FourAssociationWarnActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.miss_phone_trail.activity.MissPhoneTrailFeedbackActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.miss_phone_trail.activity.MissPhoneTrailWarnActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.collection.activity.ForeignCollectionListActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.report.collection.activity.CollectionActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_inflow.activity.PersonnelInflowActivity"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_outflow.activity.PersonnelOutFlowActivity" android:launchMode="singleTask" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.fec.xjoneproject.ui.task.personnel_outflow.activity.ContactDetailActivity" android:screenOrientation="portrait" android:windowSoftInputMode="stateHidden"/>
+        <activity android:name="com.ui.card.TRCardScan"/>
+        <meta-data android:name="android.max_aspect" android:value="2.1"/>
+        <activity android:name="com.kernal.passportreader.sdk.MainActivity" android:exported="false" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="kernal.idcard.MainActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kernal.passportreader.sdk.CameraActivity" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation|screenSize"/>
+        <activity android:name="com.kernal.passportreader.sdk.ShowResultActivity" android:exported="false" android:screenOrientation="portrait" android:windowSoftInputMode="adjustUnspecified|stateHidden|adjustResize">
+            <intent-filter>
+                <action android:name="kernal.idcard.ShowResultActivity"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <activity android:name="com.kernal.passport.sdk.utils.PermissionActivity" android:screenOrientation="portrait"/>
+        <service android:name="kernal.idcard.android.AuthService" android:enabled="true">
+            <intent-filter>
+                <action android:name="kernal.idcard.authService"/>
+            </intent-filter>
+        </service>
+        <service android:name="kernal.idcard.android.RecogService" android:enabled="true">
+            <intent-filter>
+                <action android:name="kernal.idcard.recogService"/>
+            </intent-filter>
+        </service>
+        <service android:name="kernal.idcard.android.TimeService" android:enabled="true">
+            <intent-filter>
+                <action android:name="kernal.idcard.TimeService"/>
+            </intent-filter>
+        </service>
+        <receiver android:name="kernal.idcard.android.DataChangeReceiver"/>
+        <activity android:name="kernal.idcard.android.IDCardBean" android:screenOrientation="landscape" android:configChanges="keyboardHidden|orientation">
+            <intent-filter>
+                <action android:name="kernal.idcard"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+            </intent-filter>
+        </activity>
+        <provider android:name="android.support.v4.content.FileProvider" android:exported="false" android:authorities="com.passport.scan.sdk.fileprovider" android:grantUriPermissions="true">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/filepaths"/>
+        </provider>
+        <meta-data android:name="android.arch.lifecycle.VERSION" android:value="27.0.0-SNAPSHOT"/>
+    </application>
+</manifest>
